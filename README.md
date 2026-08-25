@@ -2,6 +2,10 @@
 
 Web app multipagina responsive per visualizzare dati sul riscaldamento globale tramite le API pubbliche di global-warming.org.
 
+## Demo online
+
+[Apri Climate Dashboard](https://incomparable-youtiao-042543.netlify.app)
+
 ## Stack
 - React + Vite
 - React Router DOM
