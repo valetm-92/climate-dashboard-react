@@ -1,0 +1,4 @@
+.wrap { min-height: 340px; padding: 2rem; display: grid; place-items: center; align-content: center; text-align: center; background: #fff; border: 1px solid #f0d3d3; border-radius: var(--radius-md); color: var(--color-danger); }
+.wrap h2 { margin: .8rem 0 .25rem; color: var(--color-text); }
+.wrap p { color: var(--color-text-muted); }
+.wrap button { display: flex; align-items: center; gap: .45rem; margin-top: .5rem; border: 0; border-radius: 9px; padding: .75rem 1rem; background: var(--color-primary); color: white; font-weight: 700; }

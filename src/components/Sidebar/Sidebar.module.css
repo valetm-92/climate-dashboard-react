@@ -1,0 +1,9 @@
+.sidebar { position: fixed; inset: 0 auto 0 0; width: var(--sidebar-width); padding: 1.5rem 1rem; background: var(--color-sidebar); color: #fff; display: flex; flex-direction: column; z-index: 20; }
+.brand { display: flex; align-items: center; gap: .75rem; padding: .5rem .6rem 1.5rem; font-size: 1.18rem; font-weight: 800; line-height: 1.05; }
+.logo { width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.22); border-radius: 50%; color: #6fe2bf; }
+.nav { display: grid; gap: .35rem; }
+.link { display: flex; align-items: center; gap: .75rem; padding: .72rem .8rem; border-radius: 9px; color: rgba(255,255,255,.86); transition: background .2s ease, color .2s ease; }
+.link:hover { background: var(--color-sidebar-hover); color: #fff; }
+.active { background: #204653; color: #fff; }
+.bottom { margin-top: auto; display: grid; gap: .35rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.12); }
+@media (max-width: 900px) { .sidebar { display: none; } }

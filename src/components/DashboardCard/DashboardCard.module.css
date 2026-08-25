@@ -1,0 +1,6 @@
+.card { min-height: 220px; padding: 1.4rem; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); display: flex; flex-direction: column; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.card:hover { transform: translateY(-4px); border-color: #b9d8d1; box-shadow: 0 14px 35px rgba(13,41,50,.11); }
+.icon { width: 50px; height: 50px; display: grid; place-items: center; border-radius: 14px; background: var(--color-surface-soft); color: var(--color-primary); }
+.card h2 { margin: 1.1rem 0 .45rem; font-size: 1.16rem; }
+.card p { margin: 0; color: var(--color-text-muted); line-height: 1.55; font-size: .94rem; }
+.cta { margin-top: auto; padding-top: 1rem; display: flex; align-items: center; gap: .35rem; color: var(--color-primary-dark); font-weight: 750; }
